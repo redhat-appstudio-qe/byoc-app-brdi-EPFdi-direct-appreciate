@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: wblo
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-ccig-tenant/byoc-app-brdi/wblo@sha256:d8917b0174b8460d6fe87639c088d481190ab6987f2d51d22c9214475943f1dd
         name: my-java-quarkus
         ports:
         - containerPort: 8081
